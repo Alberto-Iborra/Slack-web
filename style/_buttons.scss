@@ -1,0 +1,94 @@
+.b-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #400d40;
+    
+    
+}
+.b-buttons__login{
+    background-color: white;
+    color: #400d40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 20px 40px 20px 40px;
+    width: 90%;
+    border-radius: 5px;
+    border-style: none;
+    border-color: transparent;
+}
+.b-buttons__login2{
+    background-color: white;
+    color: #400d40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 20px 40px 20px 40px;
+    width: 90%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #400d40;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.b-buttons__login--color{
+    background-color: #400d40;
+    color:white;
+}
+.b-buttons__login--google{
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #4285f4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 20px 40px 20px 40px;
+    width: 90%;
+    border-radius: 5px;
+    border-style: none;
+    border-color: transparent;
+    position: relative;
+}
+.logo-google{
+    position: absolute;
+    background-color: white;
+    object-fit:scale-down;
+    height: 90%;
+    left: 2px;
+    top: 2px;
+
+}
+.color-link-google{
+    color: white;
+    text-decoration: none;
+}
+.color-link{
+    text-decoration: none;
+    
+}
+.color-link1{
+    text-decoration: none;
+    color: white;
+}
+.b-buttons__login3{
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 20px 40px 20px 40px;
+    width: 90%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
